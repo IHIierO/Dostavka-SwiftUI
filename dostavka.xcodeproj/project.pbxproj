@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12491268218271C7014F8BC0 /* Pods_dostavka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C441AC382527B9A58AE51BE9 /* Pods_dostavka.framework */; };
+		39A9922B285D268F00667D1A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 39A9922A285D268F00667D1A /* Realm */; };
+		39A9922D285D268F00667D1A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 39A9922C285D268F00667D1A /* RealmSwift */; };
+		39B96D7A285DFC3F00FBBF36 /* TestCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B96D79285DFC3F00FBBF36 /* TestCode.swift */; };
+		39EF26AE28608C6D009ACF16 /* Hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF26AD28608C6D009ACF16 /* Hotels.swift */; };
+		39EF26B12861C30D009ACF16 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF26B02861C30D009ACF16 /* Person.swift */; };
+		39EF26B32861C351009ACF16 /* DayWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF26B22861C351009ACF16 /* DayWork.swift */; };
+		39EF26B52861C386009ACF16 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF26B42861C386009ACF16 /* Map.swift */; };
+		39EF26B92861C40A009ACF16 /* DescripHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF26B82861C40A009ACF16 /* DescripHotel.swift */; };
+		39EF26BE286499BB009ACF16 /* descriptionHotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF26BD286499BB009ACF16 /* descriptionHotels.swift */; };
+		39FF6AA228771AE700AD1FF5 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF6AA128771AE700AD1FF5 /* Background.swift */; };
+		39FF6AAD287C4D7A00AD1FF5 /* RealmMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF6AAC287C4D7A00AD1FF5 /* RealmMigration.swift */; };
+		39FF6AAF287EDACF00AD1FF5 /* HotelsForDayWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF6AAE287EDACF00AD1FF5 /* HotelsForDayWork.swift */; };
+		680CEACD88E2A061CABD864A /* Pods_dostavka_dostavkaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37B10B2C43E088D1276DB5 /* Pods_dostavka_dostavkaUITests.framework */; };
+		B4512042A0C09DFC416EF46A /* Pods_dostavkaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DC2C88667EC20D521F4FFA /* Pods_dostavkaTests.framework */; };
 		E90DFEEA284E2CEE00D44344 /* dostavkaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DFEE9284E2CEE00D44344 /* dostavkaApp.swift */; };
-		E90DFEEC284E2CEE00D44344 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DFEEB284E2CEE00D44344 /* ContentView.swift */; };
+		E90DFEEC284E2CEE00D44344 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DFEEB284E2CEE00D44344 /* MainView.swift */; };
 		E90DFEEE284E2CF300D44344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90DFEED284E2CF300D44344 /* Assets.xcassets */; };
 		E90DFEF1284E2CF300D44344 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90DFEF0284E2CF300D44344 /* Preview Assets.xcassets */; };
 		E90DFEFB284E2CF400D44344 /* dostavkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DFEFA284E2CF400D44344 /* dostavkaTests.swift */; };
 		E90DFF05284E2CF400D44344 /* dostavkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DFF04284E2CF400D44344 /* dostavkaUITests.swift */; };
 		E90DFF07284E2CF400D44344 /* dostavkaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90DFF06284E2CF400D44344 /* dostavkaUITestsLaunchTests.swift */; };
+		E9D1C8322859F140007DE579 /* HotelPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1C8312859F140007DE579 /* HotelPoint.swift */; };
+		E9D1C8352859F9E7007DE579 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E9D1C8342859F9E7007DE579 /* Realm */; };
+		E9D1C8372859F9E7007DE579 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9D1C8362859F9E7007DE579 /* RealmSwift */; };
+		E9D1C83A2859FEF8007DE579 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1C8392859FEF8007DE579 /* RealmManager.swift */; };
+		E9D1C83C285A0F1C007DE579 /* TableForDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1C83B285A0F1C007DE579 /* TableForDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +54,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		197D84E13090FA7B3F5E08AD /* Pods-dostavka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dostavka.release.xcconfig"; path = "Target Support Files/Pods-dostavka/Pods-dostavka.release.xcconfig"; sourceTree = "<group>"; };
+		2CED98DE30439B06BFBA646F /* Pods-dostavka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dostavka.debug.xcconfig"; path = "Target Support Files/Pods-dostavka/Pods-dostavka.debug.xcconfig"; sourceTree = "<group>"; };
+		31A11A035CB56C0E1DC50F59 /* Pods-dostavka-dostavkaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dostavka-dostavkaUITests.debug.xcconfig"; path = "Target Support Files/Pods-dostavka-dostavkaUITests/Pods-dostavka-dostavkaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3961BF7A2885850C0070C344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		39B96D79285DFC3F00FBBF36 /* TestCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCode.swift; sourceTree = "<group>"; };
+		39EF26AD28608C6D009ACF16 /* Hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotels.swift; sourceTree = "<group>"; };
+		39EF26B02861C30D009ACF16 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		39EF26B22861C351009ACF16 /* DayWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWork.swift; sourceTree = "<group>"; };
+		39EF26B42861C386009ACF16 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		39EF26B82861C40A009ACF16 /* DescripHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescripHotel.swift; sourceTree = "<group>"; };
+		39EF26BD286499BB009ACF16 /* descriptionHotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descriptionHotels.swift; sourceTree = "<group>"; };
+		39FF6AA128771AE700AD1FF5 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		39FF6AAC287C4D7A00AD1FF5 /* RealmMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMigration.swift; sourceTree = "<group>"; };
+		39FF6AAE287EDACF00AD1FF5 /* HotelsForDayWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsForDayWork.swift; sourceTree = "<group>"; };
+		4329318DF54123BA0FB16650 /* Pods-dostavka-dostavkaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dostavka-dostavkaUITests.release.xcconfig"; path = "Target Support Files/Pods-dostavka-dostavkaUITests/Pods-dostavka-dostavkaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7DC2C88667EC20D521F4FFA /* Pods_dostavkaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dostavkaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB85BF68DCB3176C71E0DC56 /* Pods-dostavkaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dostavkaTests.debug.xcconfig"; path = "Target Support Files/Pods-dostavkaTests/Pods-dostavkaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C441AC382527B9A58AE51BE9 /* Pods_dostavka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dostavka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E498991E80F5E5E67D6AFCDE /* Pods-dostavkaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dostavkaTests.release.xcconfig"; path = "Target Support Files/Pods-dostavkaTests/Pods-dostavkaTests.release.xcconfig"; sourceTree = "<group>"; };
 		E90DFEE6284E2CEE00D44344 /* dostavka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dostavka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90DFEE9284E2CEE00D44344 /* dostavkaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dostavkaApp.swift; sourceTree = "<group>"; };
-		E90DFEEB284E2CEE00D44344 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E90DFEEB284E2CEE00D44344 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E90DFEED284E2CF300D44344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E90DFEF0284E2CF300D44344 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E90DFEF6284E2CF400D44344 /* dostavkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dostavkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +83,10 @@
 		E90DFF00284E2CF400D44344 /* dostavkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dostavkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90DFF04284E2CF400D44344 /* dostavkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dostavkaUITests.swift; sourceTree = "<group>"; };
 		E90DFF06284E2CF400D44344 /* dostavkaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dostavkaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9D1C8312859F140007DE579 /* HotelPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelPoint.swift; sourceTree = "<group>"; };
+		E9D1C8392859FEF8007DE579 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		E9D1C83B285A0F1C007DE579 /* TableForDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableForDescription.swift; sourceTree = "<group>"; };
+		EC37B10B2C43E088D1276DB5 /* Pods_dostavka_dostavkaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dostavka_dostavkaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +94,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39A9922D285D268F00667D1A /* RealmSwift in Frameworks */,
+				39A9922B285D268F00667D1A /* Realm in Frameworks */,
+				E9D1C8372859F9E7007DE579 /* RealmSwift in Frameworks */,
+				E9D1C8352859F9E7007DE579 /* Realm in Frameworks */,
+				12491268218271C7014F8BC0 /* Pods_dostavka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4512042A0C09DFC416EF46A /* Pods_dostavkaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,19 +114,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680CEACD88E2A061CABD864A /* Pods_dostavka_dostavkaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39B96D78285DFC0D00FBBF36 /* Test code */ = {
+			isa = PBXGroup;
+			children = (
+				39B96D79285DFC3F00FBBF36 /* TestCode.swift */,
+			);
+			path = "Test code";
+			sourceTree = "<group>";
+		};
+		39EF26AF28608CA4009ACF16 /* MainStruct */ = {
+			isa = PBXGroup;
+			children = (
+				39EF26B02861C30D009ACF16 /* Person.swift */,
+				39EF26B22861C351009ACF16 /* DayWork.swift */,
+				39FF6AAE287EDACF00AD1FF5 /* HotelsForDayWork.swift */,
+				39EF26AD28608C6D009ACF16 /* Hotels.swift */,
+				39EF26B42861C386009ACF16 /* Map.swift */,
+				39EF26B82861C40A009ACF16 /* DescripHotel.swift */,
+				39FF6AA128771AE700AD1FF5 /* Background.swift */,
+			);
+			path = MainStruct;
+			sourceTree = "<group>";
+		};
+		5DD874364E2609D1DD51BAB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CED98DE30439B06BFBA646F /* Pods-dostavka.debug.xcconfig */,
+				197D84E13090FA7B3F5E08AD /* Pods-dostavka.release.xcconfig */,
+				31A11A035CB56C0E1DC50F59 /* Pods-dostavka-dostavkaUITests.debug.xcconfig */,
+				4329318DF54123BA0FB16650 /* Pods-dostavka-dostavkaUITests.release.xcconfig */,
+				BB85BF68DCB3176C71E0DC56 /* Pods-dostavkaTests.debug.xcconfig */,
+				E498991E80F5E5E67D6AFCDE /* Pods-dostavkaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E90DFEDD284E2CEE00D44344 = {
 			isa = PBXGroup;
 			children = (
 				E90DFEE8284E2CEE00D44344 /* dostavka */,
+				39B96D78285DFC0D00FBBF36 /* Test code */,
 				E90DFEF9284E2CF400D44344 /* dostavkaTests */,
 				E90DFF03284E2CF400D44344 /* dostavkaUITests */,
 				E90DFEE7284E2CEE00D44344 /* Products */,
+				5DD874364E2609D1DD51BAB0 /* Pods */,
+				EE2CAF18A6EE6DD6427D6BAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +182,12 @@
 		E90DFEE8284E2CEE00D44344 /* dostavka */ = {
 			isa = PBXGroup;
 			children = (
+				3961BF7A2885850C0070C344 /* Info.plist */,
 				E90DFEE9284E2CEE00D44344 /* dostavkaApp.swift */,
-				E90DFEEB284E2CEE00D44344 /* ContentView.swift */,
+				E90DFEEB284E2CEE00D44344 /* MainView.swift */,
+				39EF26AF28608CA4009ACF16 /* MainStruct */,
 				E90DFEED284E2CF300D44344 /* Assets.xcassets */,
+				E9D1C8302859F0DC007DE579 /* Class */,
 				E90DFEEF284E2CF300D44344 /* Preview Content */,
 			);
 			path = dostavka;
@@ -127,6 +218,36 @@
 			path = dostavkaUITests;
 			sourceTree = "<group>";
 		};
+		E9D1C8302859F0DC007DE579 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E9D1C8312859F140007DE579 /* HotelPoint.swift */,
+				E9D1C83B285A0F1C007DE579 /* TableForDescription.swift */,
+				39EF26BD286499BB009ACF16 /* descriptionHotels.swift */,
+				E9D1C8382859FECC007DE579 /* RealmManager */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E9D1C8382859FECC007DE579 /* RealmManager */ = {
+			isa = PBXGroup;
+			children = (
+				39FF6AAC287C4D7A00AD1FF5 /* RealmMigration.swift */,
+				E9D1C8392859FEF8007DE579 /* RealmManager.swift */,
+			);
+			path = RealmManager;
+			sourceTree = "<group>";
+		};
+		EE2CAF18A6EE6DD6427D6BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C441AC382527B9A58AE51BE9 /* Pods_dostavka.framework */,
+				EC37B10B2C43E088D1276DB5 /* Pods_dostavka_dostavkaUITests.framework */,
+				A7DC2C88667EC20D521F4FFA /* Pods_dostavkaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +255,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E90DFF0A284E2CF400D44344 /* Build configuration list for PBXNativeTarget "dostavka" */;
 			buildPhases = (
+				774D624C9F55A044DAAA096C /* [CP] Check Pods Manifest.lock */,
 				E90DFEE2284E2CEE00D44344 /* Sources */,
 				E90DFEE3284E2CEE00D44344 /* Frameworks */,
 				E90DFEE4284E2CEE00D44344 /* Resources */,
+				3C5942550D9F621BA9F7B521 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = dostavka;
+			packageProductDependencies = (
+				E9D1C8342859F9E7007DE579 /* Realm */,
+				E9D1C8362859F9E7007DE579 /* RealmSwift */,
+				39A9922A285D268F00667D1A /* Realm */,
+				39A9922C285D268F00667D1A /* RealmSwift */,
+			);
 			productName = dostavka;
 			productReference = E90DFEE6284E2CEE00D44344 /* dostavka.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E90DFF0D284E2CF400D44344 /* Build configuration list for PBXNativeTarget "dostavkaTests" */;
 			buildPhases = (
+				5DB09FB5506FACC2EB1AD2EA /* [CP] Check Pods Manifest.lock */,
 				E90DFEF2284E2CF400D44344 /* Sources */,
 				E90DFEF3284E2CF400D44344 /* Frameworks */,
 				E90DFEF4284E2CF400D44344 /* Resources */,
@@ -169,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E90DFF10284E2CF400D44344 /* Build configuration list for PBXNativeTarget "dostavkaUITests" */;
 			buildPhases = (
+				89B2080182EE4987736B47AD /* [CP] Check Pods Manifest.lock */,
 				E90DFEFC284E2CF400D44344 /* Sources */,
 				E90DFEFD284E2CF400D44344 /* Frameworks */,
 				E90DFEFE284E2CF400D44344 /* Resources */,
+				8A273F06857FF6A7337270B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +347,10 @@
 				Base,
 			);
 			mainGroup = E90DFEDD284E2CEE00D44344;
+			packageReferences = (
+				E9D1C8332859F9E5007DE579 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				39A99229285D268F00667D1A /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = E90DFEE7284E2CEE00D44344 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,13 +388,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C5942550D9F621BA9F7B521 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dostavka/Pods-dostavka-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dostavka/Pods-dostavka-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dostavka/Pods-dostavka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB09FB5506FACC2EB1AD2EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dostavkaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		774D624C9F55A044DAAA096C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dostavka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B2080182EE4987736B47AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dostavka-dostavkaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A273F06857FF6A7337270B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dostavka-dostavkaUITests/Pods-dostavka-dostavkaUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dostavka-dostavkaUITests/Pods-dostavka-dostavkaUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dostavka-dostavkaUITests/Pods-dostavka-dostavkaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E90DFEE2284E2CEE00D44344 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90DFEEC284E2CEE00D44344 /* ContentView.swift in Sources */,
+				39FF6AAF287EDACF00AD1FF5 /* HotelsForDayWork.swift in Sources */,
+				39FF6AAD287C4D7A00AD1FF5 /* RealmMigration.swift in Sources */,
+				39EF26B52861C386009ACF16 /* Map.swift in Sources */,
+				39FF6AA228771AE700AD1FF5 /* Background.swift in Sources */,
+				39EF26B32861C351009ACF16 /* DayWork.swift in Sources */,
+				E9D1C8322859F140007DE579 /* HotelPoint.swift in Sources */,
+				E9D1C83A2859FEF8007DE579 /* RealmManager.swift in Sources */,
+				E9D1C83C285A0F1C007DE579 /* TableForDescription.swift in Sources */,
+				39EF26AE28608C6D009ACF16 /* Hotels.swift in Sources */,
+				39EF26BE286499BB009ACF16 /* descriptionHotels.swift in Sources */,
+				E90DFEEC284E2CEE00D44344 /* MainView.swift in Sources */,
+				39B96D7A285DFC3F00FBBF36 /* TestCode.swift in Sources */,
+				39EF26B12861C30D009ACF16 /* Person.swift in Sources */,
 				E90DFEEA284E2CEE00D44344 /* dostavkaApp.swift in Sources */,
+				39EF26B92861C40A009ACF16 /* DescripHotel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +665,7 @@
 		};
 		E90DFF0B284E2CF400D44344 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CED98DE30439B06BFBA646F /* Pods-dostavka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,11 +675,15 @@
 				DEVELOPMENT_TEAM = Z77PMGH233;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dostavka/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This demo application displays user location now";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,12 +693,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E90DFF0C284E2CF400D44344 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197D84E13090FA7B3F5E08AD /* Pods-dostavka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,11 +709,15 @@
 				DEVELOPMENT_TEAM = Z77PMGH233;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dostavka/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This demo application displays user location now";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +727,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		E90DFF0E284E2CF400D44344 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB85BF68DCB3176C71E0DC56 /* Pods-dostavkaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +754,7 @@
 		};
 		E90DFF0F284E2CF400D44344 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E498991E80F5E5E67D6AFCDE /* Pods-dostavkaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +775,7 @@
 		};
 		E90DFF11284E2CF400D44344 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A11A035CB56C0E1DC50F59 /* Pods-dostavka-dostavkaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +794,7 @@
 		};
 		E90DFF12284E2CF400D44344 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4329318DF54123BA0FB16650 /* Pods-dostavka-dostavkaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -585,6 +851,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39A99229285D268F00667D1A /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		E9D1C8332859F9E5007DE579 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39A9922A285D268F00667D1A /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39A99229285D268F00667D1A /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		39A9922C285D268F00667D1A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39A99229285D268F00667D1A /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		E9D1C8342859F9E7007DE579 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9D1C8332859F9E5007DE579 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		E9D1C8362859F9E7007DE579 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9D1C8332859F9E5007DE579 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E90DFEDE284E2CEE00D44344 /* Project object */;
 }
